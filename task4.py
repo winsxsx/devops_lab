@@ -13,7 +13,7 @@ else:
         print("-1")
     else:
         Q = 0
-        while len(numbers) != 0:
+        while numbers:
             Q = Q * 10 + numbers[-1]
             numbers.pop()
         print(Q)
