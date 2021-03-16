@@ -30,6 +30,7 @@ def write_file(file_t, snap):
         if file_t == 'json':
             f.write(json.dumps(snap))
 
+
 def main():
     parser = argparse.ArgumentParser()   
     parser.add_argument('--time_step', '-t', type=int, default=5,
